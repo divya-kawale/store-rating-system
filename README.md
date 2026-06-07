@@ -116,5 +116,5 @@ The system supports **Admin, Normal User, and Store Owner** roles with secure au
 
 ## 1️Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/divya-kawale/store-rating-system.git>
 cd store-rating-system
