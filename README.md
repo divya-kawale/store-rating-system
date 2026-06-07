@@ -112,6 +112,37 @@ The system supports **Admin, Normal User, and Store Owner** roles with secure au
 
 ---
 
+# info
+The system uses role-based authentication with a single login page. For evaluation purposes, I have provided demo credentials for Admin, Store Owner, and Normal User in the README. In a production environment, admin accounts are created only by existing administrators through the admin dashboard
+
+#Demo Credentials
+Admin
+Email: admin2@gmail.com
+Password:admin123
+
+User
+Email: divya@gmail.com
+Password: Divya@123
+
+Store Owner
+Email: owner@gmail.com
+Password: 12345
+
+## Environment Variables
+
+Create a `.env` file inside the `backend` folder and add the following:
+
+env
+PORT=5000
+
+DB_HOST=localhost
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
+DB_NAME=store_rating_system
+
+JWT_SECRET=your_jwt_secret_key
+
+
 # Setup Instructions
 
 ## 1️Clone Repository
